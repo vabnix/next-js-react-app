@@ -14,6 +14,7 @@ export default function Navbar() {
         <h1>Texas Helpdesk</h1>
         <Link href='/'>Home</Link>
         <Link href='/tickets'>Tickets</Link>
+        <Link href='/tickets/create'>Create Ticket</Link>
       </nav>
   )
 }

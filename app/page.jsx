@@ -10,7 +10,7 @@ export default function Home() {
       <Link href="/tickets">
         <button className="btn-primary">View Tickets</button>
       </Link>
-    </div>
+      </div>
 
     <h2>Company Updates</h2>
 
