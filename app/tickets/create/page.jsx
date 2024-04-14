@@ -1,9 +1,10 @@
-import React from 'react'
-
-export default function CreateForm() {
-  return (
-    <div>
-      
-    </div>
-  )
+import CreateForm from "./CreateTicket";
+export default function CreateTicket() {
+    return (
+      <main>
+        <h2 className="text-primary text-center">Add a new Ticket</h2>
+        <CreateForm />
+      </main>
+    );
 }
+  
