@@ -1,5 +1,10 @@
 async function getTickets(){
-    const res = await fetch('http://localhost:4000/tickets')
+    const res = await fetch('http://localhost:4000/tickets',{
+        next: {
+            revalidate: 0 //using 0 to opt out of caching and making sure data is immidiately refreshed
+        }
+            
+    })
     return res.json();
 }
 
